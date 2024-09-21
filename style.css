@@ -3,9 +3,7 @@ body {
     color: black;
     align-items: center;
     margin: 50px;
-}
-
-.px {
+    font-family: "Noto Sans Japanise";
     font-size: 20px;
 }
 
@@ -13,14 +11,17 @@ pre {
     outline: none;
     padding: 15px;
     background-color:lightyellow;
+    font-family: "Noto Sans Japanise";
 }
 
 .div-pre {
     white-space: pre;
     padding: 5px;
     background-color:lightgray;
+    font-family: "Noto Sans Japanise";
 }
 
 h2{
     margin-bottom: -15px;
+    font-family: "Noto Sans Japanise";
 }
