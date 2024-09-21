@@ -9,7 +9,7 @@ body {
 
 pre {
     outline: none;
-    padding: 15px;
+    padding: 16px;
     background-color:lightyellow;
     font-family: "ヒラギノ角ゴシック";
 }
@@ -24,4 +24,8 @@ pre {
 h2{
     margin-bottom: -15px;
     font-family: "ヒラギノ角ゴシック";
+}
+
+textarea{
+    font-size: 16px;
 }
