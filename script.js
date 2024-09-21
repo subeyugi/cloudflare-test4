@@ -11,10 +11,9 @@ function buttonOnClick(){
             output += t;
             output += "</br>";
         }else if(type == "bold"){
-            output += "<h2>";
+            output += "<h3>";
             output += t.replace("# ", "");
-            output += "</h2>";
-            output += "</br>";
+            output += "</h3>";
             type = "none";
         }else if(type == "code"){
             output += "<div class=div-pre>";
@@ -23,5 +22,14 @@ function buttonOnClick(){
             type = "none"
         }
     });
-    document.querySelector("p").innerHTML = output;
+    document.getElementById("mainContent").innerHTML = output;
+}
+
+function addColor(){
+    var textArea = document.getElementById("inputBox");
+    const text = textArea.value;
+    const start = textArea.selectionStart;
+    const end = textArea.selectionEnd;
+    const newInput = text.substring(0, start) + "<span style=\"color: red;\">" + text.substring(start, end) + "</span>" + text.substring(end, text.length);
+    textArea.value = newInput;
 }

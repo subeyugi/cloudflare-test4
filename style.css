@@ -4,28 +4,40 @@ body {
     align-items: center;
     margin: 50px;
     font-family: "ヒラギノ角ゴシック";
-    font-size: 20px;
-}
-
-pre {
-    outline: none;
-    padding: 16px;
-    background-color:lightyellow;
-    font-family: "ヒラギノ角ゴシック";
+    font-size: 16px;
 }
 
 .div-pre {
     white-space: pre;
     padding: 5px;
-    background-color:lightgray;
+    margin-bottom: 10px;
+    background-color: #EAEAF0;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     font-family: "ヒラギノ角ゴシック";
+    font-size: 16px;
+}
+
+.div_pre::-webkit-scrollbar{
+    display: none;
 }
 
 h2{
-    margin-bottom: -15px;
+    margin-top: -5px;
+    margin-bottom: -30px;
     font-family: "ヒラギノ角ゴシック";
 }
 
 textarea{
     font-size: 16px;
+    width: 100%;
+}
+
+.outline{
+    outline-style:solid;
+    border-radius: 10px;
+    outline-width: 1px;
+    padding: 15px;
+    outline-color: #E0E0E0;
 }
