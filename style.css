@@ -2,9 +2,9 @@ body {
     background: white;
     color: black;
     align-items: center;
-    margin: 50px;
+    margin: 10px;
     font-family: "ヒラギノ角ゴシック";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .div-pre {
@@ -16,7 +16,7 @@ body {
     -ms-overflow-style: none;
     scrollbar-width: none;
     font-family: "ヒラギノ角ゴシック";
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .div_pre::-webkit-scrollbar{
@@ -30,7 +30,7 @@ h2{
 }
 
 textarea{
-    font-size: 16px;
+    font-size: 12px;
     width: 100%;
 }
 
@@ -40,4 +40,8 @@ textarea{
     outline-width: 1px;
     padding: 15px;
     outline-color: #E0E0E0;
+}
+
+textarea{
+    font-size: 16px;
 }
