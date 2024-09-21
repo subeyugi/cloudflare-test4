@@ -1,0 +1,26 @@
+body {
+    background: white;
+    color: black;
+    align-items: center;
+    margin: 50px;
+}
+
+.px {
+    font-size: 20px;
+}
+
+pre {
+    outline: none;
+    padding: 15px;
+    background-color:lightyellow;
+}
+
+.div-pre {
+    white-space: pre;
+    padding: 5px;
+    background-color:lightgray;
+}
+
+h2{
+    margin-bottom: -15px;
+}
