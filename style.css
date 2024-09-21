@@ -3,7 +3,7 @@ body {
     color: black;
     align-items: center;
     margin: 50px;
-    font-family: "Noto Sans Japanise";
+    font-family: "ヒラギノ角ゴシック";
     font-size: 20px;
 }
 
@@ -11,17 +11,17 @@ pre {
     outline: none;
     padding: 15px;
     background-color:lightyellow;
-    font-family: "Noto Sans Japanise";
+    font-family: "ヒラギノ角ゴシック";
 }
 
 .div-pre {
     white-space: pre;
     padding: 5px;
     background-color:lightgray;
-    font-family: "Noto Sans Japanise";
+    font-family: "ヒラギノ角ゴシック";
 }
 
 h2{
     margin-bottom: -15px;
-    font-family: "Noto Sans Japanise";
+    font-family: "ヒラギノ角ゴシック";
 }
